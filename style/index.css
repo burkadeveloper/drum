@@ -1,0 +1,55 @@
+p{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:rgb(255, 255, 255);
+}
+h1{
+    color: rgb(22, 21, 21);
+    text-align: center;
+    font-size: 5rem;
+    margin: 0;
+    padding: 0;
+
+}
+.dice-container{
+    display: flex;
+   
+    margin-top: 150px;
+
+}
+.container-playerone{
+    background-color: rgb(0, 0, 0);
+    padding: 2% 3%;
+    width: 10%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+
+}
+.container-playertwo{
+    background-color: red;
+}
+.top-circle,.top2-circle,.top3-circle{
+    background-color: white;
+    padding: 5% 5%;
+    width: 40px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    height: 40px;
+}
+.top-circle-r,.top2-circle-r,.top3-circle-r{
+    background-color: white;
+    padding: 5% 5%;
+    width: 40px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 20px; 
+    height: 40px;  
+}
+.hide{
+    background-color: transparent;
+}
